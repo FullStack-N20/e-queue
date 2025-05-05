@@ -90,7 +90,7 @@ export class DoctorController {
       if (!decodedToken) {
         return catchError(res, 401, 'Refresh token doctor expired');
       }
-      const payload = { id: decodedToken.id, role: decodedToken.role };
+      const payload = { id: decodedToken.id, is_doctor: true };
       const accessToken = generateAccessToken(payload);
       return res.status(200).json({
         statusCode: 200,

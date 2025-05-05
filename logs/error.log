@@ -10,3 +10,5 @@
 {"level":"error","message":"Danggg: Cannot populate path `Graph` because it is not in your schema. Set the `strictPopulate` option to false to override.","timestamp":"2025-05-02T07:31:45.585Z"}
 {"level":"error","message":"Danggg: ValidationError: \"graphs\" is not allowed","timestamp":"2025-05-02T07:37:38.044Z"}
 {"level":"error","message":"Danggg: ValidationError: \"graphs\" is not allowed","timestamp":"2025-05-02T07:37:50.402Z"}
+{"level":"error","message":"Danggg: Phone number already exist","timestamp":"2025-05-05T05:36:41.508Z"}
+{"level":"error","message":"Danggg: Phone number already exist","timestamp":"2025-05-05T05:36:50.304Z"}

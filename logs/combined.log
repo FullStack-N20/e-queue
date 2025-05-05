@@ -55,3 +55,6 @@
 {"level":"info","message":"Server running on port 2000","timestamp":"2025-05-02T07:35:36.507Z"}
 {"level":"error","message":"Danggg: ValidationError: \"graphs\" is not allowed","timestamp":"2025-05-02T07:37:38.044Z"}
 {"level":"error","message":"Danggg: ValidationError: \"graphs\" is not allowed","timestamp":"2025-05-02T07:37:50.402Z"}
+{"level":"info","message":"Server running on port 2000","timestamp":"2025-05-05T05:34:21.235Z"}
+{"level":"error","message":"Danggg: Phone number already exist","timestamp":"2025-05-05T05:36:41.508Z"}
+{"level":"error","message":"Danggg: Phone number already exist","timestamp":"2025-05-05T05:36:50.304Z"}
