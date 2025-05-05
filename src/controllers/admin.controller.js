@@ -221,12 +221,16 @@ export class AdminController {
         hashedPassword = encode(req.body.password, 7);
         delete req.body.password;
       }
-      const updatedAdmin = await Admin.findByIdAndUpdate(id, {
-        ...req.body,
-        hashedPassword
-      }, {
-        new: true,
-      });
+      const updatedAdmin = await Admin.findByIdAndUpdate(
+        id,
+        {
+          ...req.body,
+          hashedPassword,
+        },
+        {
+          new: true,
+        }
+      );
       return res.status(200).json({
         statusCode: 200,
         message: 'success',
