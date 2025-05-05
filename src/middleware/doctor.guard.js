@@ -8,7 +8,7 @@ export const DoctorGuard = (req, res, next) => {
       user.role === 'admin' ||
       user?.is_doctor
     ) {
-      next();
+      return next();
     } else {
       return catchError(res, 403, 'Forbidden user');
     }

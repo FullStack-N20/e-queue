@@ -4,7 +4,7 @@ export const AdminGuard = (req, res, next) => {
   try {
     const user = req?.user;
     if (user.role === 'superadmin' || user.role === 'admin') {
-      next();
+      return next();
     } else {
       return catchError(res, 403, 'Forbidden user');
     }
